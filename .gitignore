@@ -108,3 +108,6 @@ dist
 
 # YARN
 yarn.lock
+
+# build files
+build/
