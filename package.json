@@ -1,5 +1,5 @@
 {
-  "name": "@tbh/palette",
+  "name": "@tbh-theme/palette",
   "version": "0.0.1",
   "description": "Colors that are yet to be decided",
   "main": "dist/index.js",
