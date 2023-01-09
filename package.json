@@ -26,25 +26,23 @@
   "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/catppuccin/palette.git"
+    "url": "git+https://github.com/Andree37/palette.git"
   },
   "keywords": [
-    "pastel-colors",
-    "catppuccin",
+    "colors-tbh",
     "colors",
     "theme",
-    "palette",
-    "soothing"
+    "palette"
   ],
   "publishConfig": {
     "access": "public"
   },
-  "author": "Catppuccin Org",
+  "author": "Tbh Org",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/catppuccin/palette/issues"
+    "url": "https://github.com/Andree37/palette/issues"
   },
-  "homepage": "https://github.com/catppuccin/palette#readme",
+  "homepage": "https://github.com/Andree37/palette#readme",
   "devDependencies": {
     "@types/node": "^18.11.18",
     "ava": "^4.2.0",
@@ -52,6 +50,5 @@
     "rimraf": "^3.0.2",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.4"
-  },
-  "dependencies": {}
+  }
 }
