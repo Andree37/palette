@@ -164,7 +164,7 @@ const frappe = {
     },
 
     flamingo: {
-        hex: '#eebebe',
+        hex: '#999999',
         rgb: 'rgb(238, 190, 190)',
         hsl: 'hsl(0, 59%, 84%)',
     },

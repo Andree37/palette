@@ -1,4 +1,4 @@
-import {variants,labels} from "./index"
+import {labels, variants} from "./index"
 import * as fs from 'fs';
 
 const argv = process.argv.slice(2)
@@ -7,20 +7,20 @@ let theme = ""
 let format = argv[0]
 let out_file = argv[1]
 
-function append(str: string) {
+function append(str) {
     theme = theme + str
 }
 
-function write(msg: string | Uint8Array) {
+function write(msg) {
     process.stdout.write(msg)
 }
 
-function capitalize_first_letter(str: string) {
+function capitalize_first_letter(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
-function write_result(content=theme) {
-    if (out_file != undefined) {
+function write_result(content = theme) {
+    if (out_file !== undefined) {
         try {
             fs.writeFileSync(out_file, content);
         } catch (err) {

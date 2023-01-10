@@ -1,13 +1,13 @@
 const esbuild = require('esbuild');
 
 const buildCJS = esbuild.build({
-    entryPoints: ['./index.ts'],
+    entryPoints: ['./index.js'],
     outfile: './dist/index.cjs',
     format: 'cjs'
 })
 
 const buildESM = esbuild.build({
-    entryPoints: ['./index.ts'],
+    entryPoints: ['./index.js'],
     outfile: './dist/index.mjs',
     format: 'esm'
 })
