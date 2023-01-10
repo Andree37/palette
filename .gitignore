@@ -106,8 +106,5 @@ dist
 # IDEA
 .idea/
 
-# YARN
-yarn.lock
-
 # build files
 build/
