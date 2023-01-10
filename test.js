@@ -1,5 +1,5 @@
 import test from 'ava'
-import {labels, variants} from './index'
+import {labels, variants} from './index.js'
 
 test('Labels', (t) => {
     t.deepEqual(labels.base, {
