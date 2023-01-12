@@ -71,168 +71,56 @@ const palettes = {
         dark
     },
     labels: {
-        rosewater: {
-            dark: dark.rosewater,
+        brink_pink: {
+            dark: dark.brink_pink,
         },
 
-        flamingo: {
-            dark: dark.flamingo,
+        spring_green: {
+            dark: dark.spring_green,
+        },
+
+        naples_yellow: {
+            dark: dark.naples_yellow,
+        },
+
+        bittersweet_red: {
+            dark: dark.bittersweet_red,
+        },
+
+        slate_blue: {
+            dark: dark.slate_blue,
+        },
+
+        jet: {
+            dark: dark.jet,
+        },
+
+        magnolia: {
+            dark: dark.magnolia,
+        },
+
+        dim_gray: {
+            dark: dark.dim_gray,
+        },
+
+        hot_pink: {
+            dark: dark.hot_pink,
+        },
+
+        english_violet: {
+            dark: dark.english_violet,
         },
 
         pink: {
             dark: dark.pink,
         },
 
-        mauve: {
-            dark: dark.mauve,
+        thistle: {
+            dark: dark.thistle,
         },
 
-        red: {
-            dark: dark.red,
-        },
-
-        maroon: {
-            dark: dark.maroon,
-        },
-
-        peach: {
-            latte: latte.peach,
-            frappe: frappe.peach,
-            macchiato: macchiato.peach,
-            dark: dark.peach,
-        },
-
-        yellow: {
-            latte: latte.yellow,
-            frappe: frappe.yellow,
-            macchiato: macchiato.yellow,
-            dark: dark.yellow,
-        },
-
-        green: {
-            latte: latte.green,
-            frappe: frappe.green,
-            macchiato: macchiato.green,
-            dark: dark.green,
-        },
-
-        teal: {
-            latte: latte.teal,
-            frappe: frappe.teal,
-            macchiato: macchiato.teal,
-            dark: dark.teal,
-        },
-
-        sky: {
-            latte: latte.sky,
-            frappe: frappe.sky,
-            macchiato: macchiato.sky,
-            dark: dark.sky,
-        },
-
-        sapphire: {
-            latte: latte.sapphire,
-            frappe: frappe.sapphire,
-            macchiato: macchiato.sapphire,
-            dark: dark.sapphire,
-        },
-
-        blue: {
-            latte: latte.blue,
-            frappe: frappe.blue,
-            macchiato: macchiato.blue,
-            dark: dark.blue,
-        },
-
-        lavender: {
-            latte: latte.lavender,
-            frappe: frappe.lavender,
-            macchiato: macchiato.lavender,
-            dark: dark.lavender,
-        },
-
-        text: {
-            latte: latte.text,
-            frappe: frappe.text,
-            macchiato: macchiato.text,
-            dark: dark.text,
-        },
-
-        subtext1: {
-            latte: latte.subtext1,
-            frappe: frappe.subtext1,
-            macchiato: macchiato.subtext1,
-            dark: dark.subtext1,
-        },
-
-        subtext0: {
-            latte: latte.subtext0,
-            frappe: frappe.subtext0,
-            macchiato: macchiato.subtext0,
-            dark: dark.subtext0,
-        },
-
-        overlay2: {
-            latte: latte.overlay2,
-            frappe: frappe.overlay2,
-            macchiato: macchiato.overlay2,
-            dark: dark.overlay2,
-        },
-
-        overlay1: {
-            latte: latte.overlay1,
-            frappe: frappe.overlay1,
-            macchiato: macchiato.overlay1,
-            dark: dark.overlay1,
-        },
-
-        overlay0: {
-            latte: latte.overlay0,
-            frappe: frappe.overlay0,
-            macchiato: macchiato.overlay0,
-            dark: dark.overlay0,
-        },
-
-        surface2: {
-            latte: latte.surface2,
-            frappe: frappe.surface2,
-            macchiato: macchiato.surface2,
-            dark: dark.surface2,
-        },
-
-        surface1: {
-            latte: latte.surface1,
-            frappe: frappe.surface1,
-            macchiato: macchiato.surface1,
-            dark: dark.surface1,
-        },
-
-        surface0: {
-            latte: latte.surface0,
-            frappe: frappe.surface0,
-            macchiato: macchiato.surface0,
-            dark: dark.surface0,
-        },
-
-        base: {
-            latte: latte.base,
-            frappe: frappe.base,
-            macchiato: macchiato.base,
-            dark: dark.base,
-        },
-
-        mantle: {
-            latte: latte.mantle,
-            frappe: frappe.mantle,
-            macchiato: macchiato.mantle,
-            dark: dark.mantle,
-        },
-
-        crust: {
-            latte: latte.crust,
-            frappe: frappe.crust,
-            macchiato: macchiato.crust,
-            dark: dark.crust,
+        max_yellow_red: {
+            dark: dark.max_yellow_red,
         },
     },
 }

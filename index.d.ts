@@ -1,60 +1,31 @@
 /**
- * Catppuccin variants
+ * TbhTheme variants
  */
 export namespace variants {
     /**
-     * Light variant
+     * Dark variant
      */
-    const latte: Labels<Color, AlphaColor>
-
-    /**
-     * Low-saturation, low-contrast dark variant
-     */
-    const frappe: Labels<Color, AlphaColor>
-
-    /**
-     * Mid-saturation, mid-contrast dark variant
-     */
-    const macchiato: Labels<Color, AlphaColor>
-
-    /**
-     * High-saturation, High-contrast dark variant
-     */
-    const mocha: Labels<Color, AlphaColor>
+    const dark: Labels<Color, AlphaColor>
 }
 
 /**
  * Palette labels
  */
 export namespace labels {
-    const rosewater: Variants<Color>
-    const flamingo: Variants<Color>
+    const brink_pink: Variants<Color>
+    const spring_green: Variants<Color>
+    const naples_yellow: Variants<Color>
+    const bittersweet_red: Variants<Color>
+    const slate_blue: Variants<Color>
+    const jet: Variants<Color>
+    const magnolia: Variants<Color>
+    const dim_gray: Variants<Color>
+    const hot_pink: Variants<Color>
+    const english_violet: Variants<Color>
     const pink: Variants<Color>
-    const mauve: Variants<Color>
-    const red: Variants<Color>
-    const maroon: Variants<Color>
-    const peach: Variants<Color>
-    const yellow: Variants<Color>
-    const green: Variants<Color>
-    const teal: Variants<Color>
-    const sky: Variants<Color>
-    const sapphire: Variants<Color>
-    const blue: Variants<Color>
-    const lavender: Variants<Color>
+    const thistle: Variants<Color>
+    const max_yellow_red: Variants<Color>
 
-    const surface2: Variants<AlphaColor>
-    const subtext0: Variants<AlphaColor>
-    const subtext1: Variants<AlphaColor>
-    const overlay0: Variants<AlphaColor>
-    const overlay2: Variants<AlphaColor>
-    const surface0: Variants<AlphaColor>
-    const text: Variants<AlphaColor>
-    const overlay1: Variants<AlphaColor>
-    const surface1: Variants<AlphaColor>
-
-    const base: Variants<AlphaColor>
-    const mantle: Variants<AlphaColor>
-    const crust: Variants<AlphaColor>
 }
 export default palette
 
@@ -82,53 +53,26 @@ export interface AlphaColor extends Color {
 
 export interface Labels<T, U> {
 
-    rosewater: T
-    flamingo: T
+    brink_pink: T
+    spring_green: T
+    naples_yellow: T
+    bittersweet_red: T
+    slate_blue: T
+    jet: T
+    magnolia: T
+    dim_gray: T
+    hot_pink: T
+    english_violet: T
     pink: T
-    mauve: T
-    red: T
-    maroon: T
-    peach: T
-    yellow: T
-    green: T
-    teal: T
-    sky: T
-    sapphire: T
-    blue: T
-    lavender: T
-
-    text: U
-    subtext1: U
-    subtext0: U
-    overlay2: U
-    overlay1: U
-    overlay0: U
-    surface2: U
-    surface1: U
-    surface0: U
-
-    base: U
-    mantle: U
-    crust: U
+    thistle: T
+    max_yellow_red: T
 }
 
 export interface Variants<T> {
     /**
-     * Light variant
+     * Dark variant
      */
-    latte: T
-    /**
-     * Low-saturation, low-contrast dark variant
-     */
-    frappe: T
-    /**
-     * Mid-saturation, mid-contrast dark variant
-     */
-    macchiato: T
-    /**
-     * High-saturation, High-contrast dark variant
-     */
-    mocha: T
+    dark: T
 }
 
 declare namespace palette {

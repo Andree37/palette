@@ -1,4 +1,4 @@
-import {labels, variants} from "./index"
+import {labels, variants} from "./index.js"
 import * as fs from 'fs';
 
 const argv = process.argv.slice(2)
