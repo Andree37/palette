@@ -36,11 +36,8 @@ switch (format) {
         append(":root {\n")
         for (let label in labels) {
             for (let palette in variants) {
-                // @ts-ignore
                 append("\t--ctp-" + palette + "-" + label + ": " + variants[palette][label]["hex"] + ";\n")
-                // @ts-ignore
                 append("\t--ctp-" + palette + "-" + label + "-rgb" + ": " + variants[palette][label]["rgb"] + ";\n")
-                // @ts-ignore
                 append("\t--ctp-" + palette + "-" + label + "-hsl" + ": " + variants[palette][label]["hsl"] + ";\n")
             }
         }
@@ -58,11 +55,8 @@ switch (format) {
             for (let label in labels) {
                 append(`| <img src="" height="23" width="23"/> |`)
                 append(`${capitalize_first_letter(label)}` + "| ")
-                // @ts-ignore
                 append(`\`${labels[label][palette]["hex"]} \`` + "| ")
-                // @ts-ignore
                 append(`\`${labels[label][palette]["rgb"]} \`` + "| ")
-                // @ts-ignore
                 append(`\`${labels[label][palette]["hsl"]} \`` + "| ")
                 append("\n")
             }
