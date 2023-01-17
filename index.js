@@ -1,73 +1,20 @@
 const dark = {
     brink_pink: {
-        hex: '#ff658e',
+        hex: '#f5e0dc',
         rgb: 'rgb(245, 224, 220)',
         hsl: 'hsl(10, 56%, 91%)',
     },
-    spring_green: {
-        hex: '#28ec87',
-        rgb: 'rgb(245, 224, 220)',
-        hsl: 'hsl(10, 56%, 91%)',
-    },
-    naples_yellow: {
-        hex: '#ffdf64',
-        rgb: 'rgb(245, 224, 220)',
-        hsl: 'hsl(10, 56%, 91%)',
-    },
-    bittersweet_red: {
-        hex: '#ff6767',
-        rgb: 'rgb(245, 224, 220)',
-        hsl: 'hsl(10, 56%, 91%)',
-    },
-    slate_blue: {
-        hex: '#8d5fe3',
-        rgb: 'rgb(245, 224, 220)',
-        hsl: 'hsl(10, 56%, 91%)',
-    },
-    jet: {
-        hex: '#3a3842',
-        rgb: 'rgb(245, 224, 220)',
-        hsl: 'hsl(10, 56%, 91%)',
-    },
-    magnolia: {
-        hex: '#fcf7ff',
-        rgb: 'rgb(245, 224, 220)',
-        hsl: 'hsl(10, 56%, 91%)',
-    },
-    dim_gray: {
-        hex: '#6a696d',
-        rgb: 'rgb(245, 224, 220)',
-        hsl: 'hsl(10, 56%, 91%)',
-    },
-    hot_pink: {
-        hex: '#ff67b1',
-        rgb: 'rgb(245, 224, 220)',
-        hsl: 'hsl(10, 56%, 91%)',
-    },
-    english_violet: {
-        hex: '#483a50',
-        rgb: 'rgb(245, 224, 220)',
-        hsl: 'hsl(10, 56%, 91%)',
-    },
-    pink: {
-        hex: '#ffc5d4',
-        rgb: 'rgb(245, 224, 220)',
-        hsl: 'hsl(10, 56%, 91%)',
-    },
-    thistle: {
-        hex: '#d0b5c4',
-        rgb: 'rgb(245, 224, 220)',
-        hsl: 'hsl(10, 56%, 91%)',
-    },
-    max_yellow_red: {
-        hex: '#ffc266',
-        rgb: 'rgb(245, 224, 220)',
-        hsl: 'hsl(10, 56%, 91%)',
-    },
+
     flamingo: {
         hex: '#f2cdcd',
         rgb: 'rgb(242, 205, 205)',
         hsl: 'hsl(0, 59%, 88%)',
+    },
+
+    pink: {
+        hex: '#f5c2e7',
+        rgb: 'rgb(245, 194, 231)',
+        hsl: 'hsl(316, 72%, 86%)',
     },
 
     mauve: {
@@ -80,6 +27,30 @@ const dark = {
         hex: '#f38ba8',
         rgb: 'rgb(243, 139, 168)',
         hsl: 'hsl(343, 81%, 75%)',
+    },
+
+    bittersweet: {
+        hex: '#eba0ac',
+        rgb: 'rgb(235, 160, 172)',
+        hsl: 'hsl(350, 65%, 77%)',
+    },
+
+    naples_yellow: {
+        hex: '#fab387',
+        rgb: 'rgb(250, 179, 135)',
+        hsl: 'hsl(23, 92%, 75%)',
+    },
+
+    maximum_yellow_red: {
+        hex: '#f9e2af',
+        rgb: 'rgb(249, 226, 175)',
+        hsl: 'hsl(41, 86%, 83%)',
+    },
+
+    medium_spring_green: {
+        hex: '#a6e3a1',
+        rgb: 'rgb(166, 227, 161)',
+        hsl: 'hsl(115, 54%, 76%)',
     },
 
     teal: {
@@ -98,6 +69,24 @@ const dark = {
         hex: '#74c7ec',
         rgb: 'rgb(116, 199, 236)',
         hsl: 'hsl(199, 76%, 69%)',
+    },
+
+    medium_slate_blue: {
+        hex: '#89b4fa',
+        rgb: 'rgb(137, 180, 250)',
+        hsl: 'hsl(217, 92%, 76%)',
+    },
+
+    hot_pink: {
+        hex: '#b4befe',
+        rgb: 'rgb(180, 190, 254)',
+        hsl: 'hsl(232, 97%, 85%)',
+    },
+
+    magnolia: {
+        hex: '#cdd6f4',
+        rgb: 'rgb(205, 214, 244)',
+        hsl: 'hsl(226, 64%, 88%)',
     },
 
     subtext1: {
@@ -124,10 +113,22 @@ const dark = {
         hsl: 'hsl(230, 13%, 55%)',
     },
 
-    surface2: {
+    thistle: {
+        hex: '#6c7086',
+        rgb: 'rgb(108, 112, 134)',
+        hsl: 'hsl(231, 11%, 47%)',
+    },
+
+    dim_gray: {
         hex: '#585b70',
         rgb: 'rgb(88, 91, 112)',
         hsl: 'hsl(233, 12%, 39%)',
+    },
+
+    surface1: {
+        hex: '#45475a',
+        rgb: 'rgb(69, 71, 90)',
+        hsl: 'hsl(234, 13%, 31%)',
     },
 
     surface0: {
@@ -136,11 +137,23 @@ const dark = {
         hsl: 'hsl(237, 16%, 23%)',
     },
 
+    jet: {
+        hex: '#1e1e2e',
+        rgb: 'rgb(30, 30, 46)',
+        hsl: 'hsl(240, 21%, 15%)',
+    },
+
     mantle: {
         hex: '#181825',
         rgb: 'rgb(24, 24, 37)',
         hsl: 'hsl(240, 21%, 12%)',
-    }
+    },
+
+    english_violet: {
+        hex: '#11111b',
+        rgb: 'rgb(17, 17, 27)',
+        hsl: 'hsl(240, 23%, 9%)',
+    },
 }
 
 const palettes = {
@@ -149,107 +162,108 @@ const palettes = {
     },
     labels: {
         brink_pink: {
-            dark: dark.brink_pink,
+            dark: dark.brink_pink
         },
 
-        spring_green: {
-            dark: dark.spring_green,
-        },
-
-        naples_yellow: {
-            dark: dark.naples_yellow,
-        },
-
-        bittersweet_red: {
-            dark: dark.bittersweet_red,
-        },
-
-        slate_blue: {
-            dark: dark.slate_blue,
-        },
-
-        jet: {
-            dark: dark.jet,
-        },
-
-        magnolia: {
-            dark: dark.magnolia,
-        },
-
-        dim_gray: {
-            dark: dark.dim_gray,
-        },
-
-        hot_pink: {
-            dark: dark.hot_pink,
-        },
-
-        english_violet: {
-            dark: dark.english_violet,
+        flamingo: {
+            dark: dark.flamingo,
         },
 
         pink: {
             dark: dark.pink,
         },
 
+        mauve: {
+            dark: dark.mauve,
+        },
+
+        red: {
+            dark: dark.red,
+        },
+
+        bittersweet: {
+            dark: dark.bittersweet,
+        },
+
+        naples_yellow: {
+            dark: dark.naples_yellow,
+        },
+
+        maximum_yellow_red: {
+            dark: dark.maximum_yellow_red,
+        },
+
+        medium_spring_green: {
+            dark: dark.medium_spring_green,
+        },
+
+        teal: {
+            dark: dark.teal,
+        },
+
+        sky: {
+            dark: dark.sky,
+        },
+
+        sapphire: {
+            dark: dark.sapphire,
+        },
+
+        medium_slate_blue: {
+            dark: dark.medium_slate_blue,
+        },
+
+        hot_pink: {
+            dark: dark.hot_pink,
+        },
+
+        magnolia: {
+            dark: dark.magnolia,
+        },
+
+        subtext1: {
+            dark: dark.subtext1,
+        },
+
+        subtext0: {
+            dark: dark.subtext0,
+        },
+
+        overlay2: {
+            dark: dark.overlay2,
+        },
+
+        overlay1: {
+            dark: dark.overlay1,
+        },
+
         thistle: {
             dark: dark.thistle,
         },
 
-        max_yellow_red: {
-            dark: dark.max_yellow_red,
-        },
-        flamingo: {
-            dark: dark.flamingo,
+        dim_gray: {
+            dark: dark.dim_gray,
         },
 
-        mauve: {
-            dark: dark.mauve
-        },
-
-        red: {
-            dark: dark.red
-        },
-
-        teal: {
-            dark: dark.teal
-        },
-
-        sky: {
-            dark: dark.sky
-        },
-
-        sapphire: {
-            dark: dark.sapphire
-        },
-
-        subtext1: {
-            dark: dark.subtext1
-        },
-
-        subtext0: {
-            dark: dark.subtext0
-        },
-
-        overlay2: {
-            dark: dark.overlay2
-        },
-
-        overlay1: {
-            dark: dark.overlay1
-        },
-
-        surface2: {
-            dark: dark.surface2
+        surface1: {
+            dark: dark.surface1,
         },
 
         surface0: {
-            dark: dark.surface0
+            dark: dark.surface0,
+        },
+
+        jet: {
+            dark: dark.jet,
         },
 
         mantle: {
-            dark: dark.mantle
-        }
+            dark: dark.mantle,
+        },
+
+        english_violet: {
+            dark: dark.english_violet,
+        },
     },
 }
 

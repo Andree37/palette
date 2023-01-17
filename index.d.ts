@@ -13,19 +13,33 @@ export namespace variants {
  */
 export namespace labels {
     const brink_pink: Variants<Color>
-    const spring_green: Variants<Color>
-    const naples_yellow: Variants<Color>
-    const bittersweet_red: Variants<Color>
-    const slate_blue: Variants<Color>
-    const jet: Variants<Color>
-    const magnolia: Variants<Color>
-    const dim_gray: Variants<Color>
-    const hot_pink: Variants<Color>
-    const english_violet: Variants<Color>
+    const flamingo: Variants<Color>
     const pink: Variants<Color>
-    const thistle: Variants<Color>
-    const max_yellow_red: Variants<Color>
+    const mauve: Variants<Color>
+    const red: Variants<Color>
+    const bittersweet: Variants<Color>
+    const naples_yellow: Variants<Color>
+    const maximum_yellow_red: Variants<Color>
+    const medium_spring_green: Variants<Color>
+    const teal: Variants<Color>
+    const sky: Variants<Color>
+    const sapphire: Variants<Color>
+    const medium_slate_blue: Variants<Color>
+    const hot_pink: Variants<Color>
 
+    const dim_gray: Variants<AlphaColor>
+    const subtext0: Variants<AlphaColor>
+    const subtext1: Variants<AlphaColor>
+    const overlay0: Variants<AlphaColor>
+    const overlay2: Variants<AlphaColor>
+    const thistle: Variants<AlphaColor>
+    const magnolia: Variants<AlphaColor>
+    const overlay1: Variants<AlphaColor>
+    const surface1: Variants<AlphaColor>
+
+    const jey: Variants<AlphaColor>
+    const mantle: Variants<AlphaColor>
+    const english_violet: Variants<AlphaColor>
 }
 export default palette
 
@@ -54,18 +68,33 @@ export interface AlphaColor extends Color {
 export interface Labels<T, U> {
 
     brink_pink: T
-    spring_green: T
-    naples_yellow: T
-    bittersweet_red: T
-    slate_blue: T
-    jet: T
-    magnolia: T
-    dim_gray: T
-    hot_pink: T
-    english_violet: T
+    flamingo: T
     pink: T
-    thistle: T
-    max_yellow_red: T
+    mauve: T
+    red: T
+    bittersweet: T
+    naples_yellow: T
+    maximum_yellow_red: T
+    medium_green_spring: T
+    teal: T
+    sky: T
+    sapphire: T
+    medium_slate_blue: T
+    hot_pink: T
+
+    magnolia: U
+    subtext1: U
+    subtext0: U
+    overlay2: U
+    overlay1: U
+    thistle: U
+    dim_gray: U
+    surface1: U
+    surface0: U
+
+    jet: U
+    mantle: U
+    english_violet: U
 }
 
 export interface Variants<T> {
