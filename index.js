@@ -1,6 +1,6 @@
 const dark = {
     brink_pink: {
-        hex: '#f5e0dc',
+        hex: '#FF6558E',
         rgb: 'rgb(245, 224, 220)',
         hsl: 'hsl(10, 56%, 91%)',
     },
@@ -12,7 +12,7 @@ const dark = {
     },
 
     pink: {
-        hex: '#f5c2e7',
+        hex: '#FFC5D4',
         rgb: 'rgb(245, 194, 231)',
         hsl: 'hsl(316, 72%, 86%)',
     },
@@ -30,25 +30,25 @@ const dark = {
     },
 
     bittersweet: {
-        hex: '#eba0ac',
+        hex: '#FF6767',
         rgb: 'rgb(235, 160, 172)',
         hsl: 'hsl(350, 65%, 77%)',
     },
 
     naples_yellow: {
-        hex: '#fab387',
+        hex: '#FFDF64',
         rgb: 'rgb(250, 179, 135)',
         hsl: 'hsl(23, 92%, 75%)',
     },
 
     maximum_yellow_red: {
-        hex: '#f9e2af',
+        hex: '#FFC266',
         rgb: 'rgb(249, 226, 175)',
         hsl: 'hsl(41, 86%, 83%)',
     },
 
     medium_spring_green: {
-        hex: '#a6e3a1',
+        hex: '#28EC87',
         rgb: 'rgb(166, 227, 161)',
         hsl: 'hsl(115, 54%, 76%)',
     },
@@ -72,19 +72,19 @@ const dark = {
     },
 
     medium_slate_blue: {
-        hex: '#89b4fa',
+        hex: '#8D5FE3',
         rgb: 'rgb(137, 180, 250)',
         hsl: 'hsl(217, 92%, 76%)',
     },
 
     hot_pink: {
-        hex: '#b4befe',
+        hex: '#FF67B1',
         rgb: 'rgb(180, 190, 254)',
         hsl: 'hsl(232, 97%, 85%)',
     },
 
     magnolia: {
-        hex: '#cdd6f4',
+        hex: '#FCF7FF',
         rgb: 'rgb(205, 214, 244)',
         hsl: 'hsl(226, 64%, 88%)',
     },
@@ -114,13 +114,13 @@ const dark = {
     },
 
     thistle: {
-        hex: '#6c7086',
+        hex: '#D0B5C4',
         rgb: 'rgb(108, 112, 134)',
         hsl: 'hsl(231, 11%, 47%)',
     },
 
     dim_gray: {
-        hex: '#585b70',
+        hex: '#6A696D',
         rgb: 'rgb(88, 91, 112)',
         hsl: 'hsl(233, 12%, 39%)',
     },
@@ -138,7 +138,7 @@ const dark = {
     },
 
     jet: {
-        hex: '#1e1e2e',
+        hex: '#3A3842',
         rgb: 'rgb(30, 30, 46)',
         hsl: 'hsl(240, 21%, 15%)',
     },
@@ -150,7 +150,7 @@ const dark = {
     },
 
     english_violet: {
-        hex: '#11111b',
+        hex: '#483A50',
         rgb: 'rgb(17, 17, 27)',
         hsl: 'hsl(240, 23%, 9%)',
     },

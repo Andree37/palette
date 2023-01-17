@@ -1,6 +1,6 @@
 {
     "name": "@tbh-theme/palette",
-    "version": "0.0.17",
+    "version": "0.0.18",
     "description": "Colors that are yet to be decided",
     "type": "module",
     "main": "dist/index.js",
