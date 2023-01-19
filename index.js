@@ -96,55 +96,55 @@ const dark = {
     },
 
     overlay2: {
-        hex: '#9399b2',
+        hex: '#9E9396',
         rgb: 'rgb(147, 153, 178)',
         hsl: 'hsl(228, 17%, 64%)',
     },
 
     overlay1: {
-        hex: '#7f849c',
+        hex: '#8B8284',
         rgb: 'rgb(127, 132, 156)',
         hsl: 'hsl(230, 13%, 55%)',
     },
 
     overlay0: {
-        hex: '#D0B5C4',
+        hex: '#7B7174',
         rgb: 'rgb(108, 112, 134)',
         hsl: 'hsl(231, 11%, 47%)',
     },
 
     surface2: {
-        hex: '#6A696D',
+        hex: '#655C5F',
         rgb: 'rgb(88, 91, 112)',
         hsl: 'hsl(233, 12%, 39%)',
     },
 
     surface1: {
-        hex: '#45475a',
+        hex: '#524A4C',
         rgb: 'rgb(69, 71, 90)',
         hsl: 'hsl(234, 13%, 31%)',
     },
 
     surface0: {
-        hex: '#313244',
+        hex: '#3D3638',
         rgb: 'rgb(49, 50, 68)',
         hsl: 'hsl(237, 16%, 23%)',
     },
 
     base: {
-        hex: '#3A3842',
+        hex: '#3D3638',
         rgb: 'rgb(30, 30, 46)',
         hsl: 'hsl(240, 21%, 15%)',
     },
 
     mantle: {
-        hex: '#181825',
+        hex: '#3D3638',
         rgb: 'rgb(24, 24, 37)',
         hsl: 'hsl(240, 21%, 12%)',
     },
 
     crust: {
-        hex: '#483A50',
+        hex: '#3D3638',
         rgb: 'rgb(17, 17, 27)',
         hsl: 'hsl(240, 23%, 9%)',
     },
