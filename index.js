@@ -1,6 +1,6 @@
 const dark = {
     brink_pink: {
-        hex: '#FF6558E',
+        hex: '#FF658E',
         rgb: 'rgb(245, 224, 220)',
         hsl: 'hsl(10, 56%, 91%)',
     },
@@ -9,12 +9,6 @@ const dark = {
         hex: '#f2cdcd',
         rgb: 'rgb(242, 205, 205)',
         hsl: 'hsl(0, 59%, 88%)',
-    },
-
-    pink: {
-        hex: '#FFC5D4',
-        rgb: 'rgb(245, 194, 231)',
-        hsl: 'hsl(316, 72%, 86%)',
     },
 
     mauve: {
@@ -41,14 +35,14 @@ const dark = {
         hsl: 'hsl(23, 92%, 75%)',
     },
 
-    maximum_yellow_red: {
-        hex: '#FFC266',
+    yellow_red: {
+        hex: '#FFB546',
         rgb: 'rgb(249, 226, 175)',
         hsl: 'hsl(41, 86%, 83%)',
     },
 
-    medium_spring_green: {
-        hex: '#28EC87',
+    emerald: {
+        hex: '#4BD28C',
         rgb: 'rgb(166, 227, 161)',
         hsl: 'hsl(115, 54%, 76%)',
     },
@@ -71,19 +65,19 @@ const dark = {
         hsl: 'hsl(199, 76%, 69%)',
     },
 
-    medium_slate_blue: {
-        hex: '#8D5FE3',
+    heliotrope: {
+        hex: '#B18BF8',
         rgb: 'rgb(137, 180, 250)',
         hsl: 'hsl(217, 92%, 76%)',
     },
 
-    hot_pink: {
-        hex: '#FF67B1',
+    pink: {
+        hex: '#FFC5D4',
         rgb: 'rgb(180, 190, 254)',
         hsl: 'hsl(232, 97%, 85%)',
     },
 
-    magnolia: {
+    text: {
         hex: '#FCF7FF',
         rgb: 'rgb(205, 214, 244)',
         hsl: 'hsl(226, 64%, 88%)',
@@ -113,13 +107,13 @@ const dark = {
         hsl: 'hsl(230, 13%, 55%)',
     },
 
-    thistle: {
+    overlay0: {
         hex: '#D0B5C4',
         rgb: 'rgb(108, 112, 134)',
         hsl: 'hsl(231, 11%, 47%)',
     },
 
-    dim_gray: {
+    surface2: {
         hex: '#6A696D',
         rgb: 'rgb(88, 91, 112)',
         hsl: 'hsl(233, 12%, 39%)',
@@ -137,7 +131,7 @@ const dark = {
         hsl: 'hsl(237, 16%, 23%)',
     },
 
-    jet: {
+    base: {
         hex: '#3A3842',
         rgb: 'rgb(30, 30, 46)',
         hsl: 'hsl(240, 21%, 15%)',
@@ -149,7 +143,7 @@ const dark = {
         hsl: 'hsl(240, 21%, 12%)',
     },
 
-    english_violet: {
+    crust: {
         hex: '#483A50',
         rgb: 'rgb(17, 17, 27)',
         hsl: 'hsl(240, 23%, 9%)',
@@ -162,15 +156,11 @@ const palettes = {
     },
     labels: {
         brink_pink: {
-            dark: dark.brink_pink
+            dark: dark.brink_pink,
         },
 
         flamingo: {
             dark: dark.flamingo,
-        },
-
-        pink: {
-            dark: dark.pink,
         },
 
         mauve: {
@@ -189,12 +179,12 @@ const palettes = {
             dark: dark.naples_yellow,
         },
 
-        maximum_yellow_red: {
-            dark: dark.maximum_yellow_red,
+        yellow_red: {
+            dark: dark.yellow_red,
         },
 
-        medium_spring_green: {
-            dark: dark.medium_spring_green,
+        emerald: {
+            dark: dark.emerald,
         },
 
         teal: {
@@ -209,16 +199,16 @@ const palettes = {
             dark: dark.sapphire,
         },
 
-        medium_slate_blue: {
-            dark: dark.medium_slate_blue,
+        heliotrope: {
+            dark: dark.heliotrope,
         },
 
-        hot_pink: {
-            dark: dark.hot_pink,
+        pink: {
+            dark: dark.pink,
         },
 
-        magnolia: {
-            dark: dark.magnolia,
+        text: {
+            dark: dark.text,
         },
 
         subtext1: {
@@ -237,12 +227,12 @@ const palettes = {
             dark: dark.overlay1,
         },
 
-        thistle: {
-            dark: dark.thistle,
+        overlay0: {
+            dark: dark.overlay0,
         },
 
-        dim_gray: {
-            dark: dark.dim_gray,
+        surface2: {
+            dark: dark.surface2,
         },
 
         surface1: {
@@ -253,16 +243,16 @@ const palettes = {
             dark: dark.surface0,
         },
 
-        jet: {
-            dark: dark.jet,
+        base: {
+            dark: dark.base,
         },
 
         mantle: {
             dark: dark.mantle,
         },
 
-        english_violet: {
-            dark: dark.english_violet,
+        crust: {
+            dark: dark.crust,
         },
     },
 }
