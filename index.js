@@ -65,8 +65,8 @@ const dark = {
         hsl: 'hsl(199, 76%, 69%)',
     },
 
-    heliotrope: {
-        hex: '#B18BF8',
+    cornflower_blue: {
+        hex: '#5991E5',
         rgb: 'rgb(137, 180, 250)',
         hsl: 'hsl(217, 92%, 76%)',
     },
@@ -96,55 +96,55 @@ const dark = {
     },
 
     overlay2: {
-        hex: '#9E9396',
+        hex: '#635256',
         rgb: 'rgb(147, 153, 178)',
         hsl: 'hsl(228, 17%, 64%)',
     },
 
     overlay1: {
-        hex: '#8B8284',
+        hex: '#5C4A4F',
         rgb: 'rgb(127, 132, 156)',
         hsl: 'hsl(230, 13%, 55%)',
     },
 
     overlay0: {
-        hex: '#7B7174',
+        hex: '#524145',
         rgb: 'rgb(108, 112, 134)',
         hsl: 'hsl(231, 11%, 47%)',
     },
 
     surface2: {
-        hex: '#655C5F',
+        hex: '#45363A',
         rgb: 'rgb(88, 91, 112)',
         hsl: 'hsl(233, 12%, 39%)',
     },
 
     surface1: {
-        hex: '#524A4C',
+        hex: '#2D2628',
         rgb: 'rgb(69, 71, 90)',
         hsl: 'hsl(234, 13%, 31%)',
     },
 
     surface0: {
-        hex: '#3D3638',
+        hex: '#1A1718',
         rgb: 'rgb(49, 50, 68)',
         hsl: 'hsl(237, 16%, 23%)',
     },
 
     base: {
-        hex: '#3D3638',
+        hex: '#1A1718',
         rgb: 'rgb(30, 30, 46)',
         hsl: 'hsl(240, 21%, 15%)',
     },
 
     mantle: {
-        hex: '#3D3638',
+        hex: '#1A1718',
         rgb: 'rgb(24, 24, 37)',
         hsl: 'hsl(240, 21%, 12%)',
     },
 
     crust: {
-        hex: '#3D3638',
+        hex: '#1A1718',
         rgb: 'rgb(17, 17, 27)',
         hsl: 'hsl(240, 23%, 9%)',
     },
@@ -199,8 +199,8 @@ const palettes = {
             dark: dark.sapphire,
         },
 
-        heliotrope: {
-            dark: dark.heliotrope,
+        cornflower_blue: {
+            dark: dark.cornflower_blue,
         },
 
         pink: {

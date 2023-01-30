@@ -23,7 +23,7 @@ export namespace labels {
     const teal: Variants<Color>
     const sky: Variants<Color>
     const sapphire: Variants<Color>
-    const heliotrope: Variants<Color>
+    const cornflower_blue: Variants<Color>
     const pink: Variants<Color>
 
     const surface0: Variants<AlphaColor>
@@ -77,7 +77,7 @@ export interface Labels<T, U> {
     teal: T
     sky: T
     sapphire: T
-    heliotrope: T
+    cornflower_blue: T
     pink: T
 
     text: U
