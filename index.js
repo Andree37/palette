@@ -24,13 +24,13 @@ const dark = {
     },
 
     bittersweet: {
-        hex: '#FF6767',
+        hex: '#E87070',
         rgb: 'rgb(235, 160, 172)',
         hsl: 'hsl(350, 65%, 77%)',
     },
 
     naples_yellow: {
-        hex: '#FFDF64',
+        hex: '#FFE789',
         rgb: 'rgb(250, 179, 135)',
         hsl: 'hsl(23, 92%, 75%)',
     },
